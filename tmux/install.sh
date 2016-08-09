@@ -13,3 +13,6 @@ echo "Resetting font cache.."
 fc-cache -f $font_dir
 
 echo "Font installed."
+
+echo "Copying tmux config.."
+cp "./tmux.conf" "~/.tmux.conf"
